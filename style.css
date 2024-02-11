@@ -1,0 +1,40 @@
+
+html{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+body{
+    background-color: #f1f4ff;
+}
+
+
+.container{
+    background-color: #ffffff;
+    text-align: center;
+    border-radius: 10px;
+    box-sizing: border-box;
+    min-width: 100%;
+}
+
+.container > div{
+    margin: 2rem;
+}
+
+.sub-download{
+    display: grid;
+    grid-template-columns: repeat(4, minmax(20px, 1fr));
+}
+
+/* .sub-type{
+    width: auto;
+    border: 1px solid ;
+    border-radius: 50px;
+} */
+
+span{
+    margin: 0;
+    padding: 0;
+}
