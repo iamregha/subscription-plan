@@ -8,31 +8,33 @@ html{
 
 body{
     background-color: #f1f4ff;
+    font-family: sans-serif;
 }
-
 
 .container{
     background-color: #ffffff;
     text-align: center;
-    border-radius: 10px;
+    border-radius: 15px;
     box-sizing: border-box;
-    min-width: 100%;
+    width: 250px;
+    height: 350px;
+    padding-top: 25px;
 }
 
-.container > div{
-    margin: 2rem;
-}
 
 .sub-download{
-    display: grid;
-    grid-template-columns: repeat(4, minmax(20px, 1fr));
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
 }
 
-/* .sub-type{
-    width: auto;
-    border: 1px solid ;
+.sub-type{
+    width: 70px;
+    height: 70px;
+    border: 1px soild #e8ecf9;
+    margin: auto;
     border-radius: 50px;
-} */
+}
 
 span{
     margin: 0;
